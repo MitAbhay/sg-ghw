@@ -1,0 +1,44 @@
+body {
+    background-color: #8a8a8a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  #canvas {
+    border: 5px solid #363636;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #info {
+    background-color: #363636;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #header{
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .snake-head {
+    background-color: #3c48e8;
+    border-radius: 50%;
+  }
+  
+  .snake-body {
+    background-color: #ffcc00;
+    border-radius: 50%;
+  }
+  
+  .food {
+    background-color: #4CAF50;
+    border-radius: 50%;
+  }
